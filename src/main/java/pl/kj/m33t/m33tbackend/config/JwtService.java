@@ -19,13 +19,12 @@ import java.util.function.Function;
 
 @Service
 //TODO: please make a refactor and change the location putting in service layer
-@AllArgsConstructor
 public class JwtService {
-    //    @Value("${jwt.secret}")
-//    private final String SECRET_KEY;
-    private static final String SECRET_KEY = "9bf1bc8bac1bebf30bc7dafc6ef7dd117a983b54e2e499adfb23511094f9e3f7";
-//TODO: please use app property
-
+    private final String SECRET_KEY;
+    @Autowired
+    public JwtService(@Value("${jwt.SECRET_KEY}") String SECRET_KEY) {
+        this.SECRET_KEY = SECRET_KEY;
+    }
 
     public String extractUsername(String token) {
         return extractClaim(token, Claims::getSubject);

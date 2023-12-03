@@ -1,0 +1,29 @@
+spring:
+  main:
+    banner-mode: off
+  liquibase:
+    change-log: classpath:db/changelog/changelog.sql
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: postgres
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: create-drop
+
+logging:
+  level:
+    org.springframework: ERROR
+
+jwt:
+  SECRET_KEY: 9bf1bc8bac1bebf30bc7dafc6ef7dd117a983b54e2e499adfb23511094f9e3f7
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: [ "prometheus" ]
