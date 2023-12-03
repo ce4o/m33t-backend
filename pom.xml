@@ -17,6 +17,8 @@
 		<java.version>17</java.version>
 	</properties>
 	<dependencies>
+		<!--TODO: actuator-->
+		<!--TODO: FF feature flags - ToggleZ-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>

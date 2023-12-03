@@ -1,6 +1,6 @@
 package pl.kj.m33t.m33tbackend.service;
 
-import pl.kj.m33t.m33tbackend.entity.Event;
+import pl.kj.m33t.m33tbackend.model.entity.Event;
 
 import java.util.List;
 

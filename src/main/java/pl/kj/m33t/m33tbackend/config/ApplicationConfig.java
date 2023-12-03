@@ -11,7 +11,7 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
-import pl.kj.m33t.m33tbackend.dao.UserRepository;
+import pl.kj.m33t.m33tbackend.model.repository.UserRepository;
 
 @Configuration
 @RequiredArgsConstructor

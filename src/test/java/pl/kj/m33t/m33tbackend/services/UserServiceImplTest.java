@@ -4,8 +4,8 @@ import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
-import pl.kj.m33t.m33tbackend.dao.UserRepository;
-import pl.kj.m33t.m33tbackend.entity.User;
+import pl.kj.m33t.m33tbackend.model.repository.UserRepository;
+import pl.kj.m33t.m33tbackend.model.entity.User;
 import pl.kj.m33t.m33tbackend.service.UserServiceImpl;
 
 import java.util.List;

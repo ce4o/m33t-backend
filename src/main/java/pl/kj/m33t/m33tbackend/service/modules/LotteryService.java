@@ -2,13 +2,13 @@ package pl.kj.m33t.m33tbackend.service.modules;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
-import pl.kj.m33t.m33tbackend.entity.Event;
-import pl.kj.m33t.m33tbackend.entity.modules.Lottery;
+import pl.kj.m33t.m33tbackend.model.entity.Event;
+import pl.kj.m33t.m33tbackend.model.entity.modules.Lottery;
 import pl.kj.m33t.m33tbackend.exception.NotFoundException;
-import pl.kj.m33t.m33tbackend.mapping.modules.LotteryMapper;
+import pl.kj.m33t.m33tbackend.service.mapping.modules.LotteryMapper;
 import pl.kj.m33t.m33tbackend.service.EventService;
-import pl.kj.m33t.m33tbackend.dao.modules.LotteryRepository;
-import pl.kj.m33t.m33tbackend.dto.request.modules.LotteryRequest;
+import pl.kj.m33t.m33tbackend.model.repository.modules.LotteryRepository;
+import pl.kj.m33t.m33tbackend.service.dto.request.modules.LotteryRequest;
 
 import java.util.List;
 import java.util.Random;

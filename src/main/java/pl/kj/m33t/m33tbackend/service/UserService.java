@@ -1,7 +1,7 @@
 package pl.kj.m33t.m33tbackend.service;
 
 import org.springframework.security.core.Authentication;
-import pl.kj.m33t.m33tbackend.entity.User;
+import pl.kj.m33t.m33tbackend.model.entity.User;
 
 import java.util.List;
 

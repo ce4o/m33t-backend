@@ -2,12 +2,12 @@ package pl.kj.m33t.m33tbackend.service.modules;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
-import pl.kj.m33t.m33tbackend.dao.modules.DebtCalculatorRepository;
-import pl.kj.m33t.m33tbackend.dao.modules.PurchaseRepository;
-import pl.kj.m33t.m33tbackend.dto.request.modules.DebtCalculatorRequest;
-import pl.kj.m33t.m33tbackend.entity.Event;
-import pl.kj.m33t.m33tbackend.entity.modules.DebtCalculator;
-import pl.kj.m33t.m33tbackend.mapping.modules.DebtCalculatorMapper;
+import pl.kj.m33t.m33tbackend.model.repository.modules.DebtCalculatorRepository;
+import pl.kj.m33t.m33tbackend.model.repository.modules.PurchaseRepository;
+import pl.kj.m33t.m33tbackend.service.dto.request.modules.DebtCalculatorRequest;
+import pl.kj.m33t.m33tbackend.model.entity.Event;
+import pl.kj.m33t.m33tbackend.model.entity.modules.DebtCalculator;
+import pl.kj.m33t.m33tbackend.service.mapping.modules.DebtCalculatorMapper;
 import pl.kj.m33t.m33tbackend.service.EventService;
 import pl.kj.m33t.m33tbackend.service.UserService;
 

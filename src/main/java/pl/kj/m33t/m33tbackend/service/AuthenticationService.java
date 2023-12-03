@@ -6,12 +6,12 @@ import org.springframework.security.authentication.UsernamePasswordAuthenticatio
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import pl.kj.m33t.m33tbackend.config.JwtService;
-import pl.kj.m33t.m33tbackend.dto.request.AuthenticationRequest;
-import pl.kj.m33t.m33tbackend.dto.response.AuthenticationResponse;
-import pl.kj.m33t.m33tbackend.dao.UserRepository;
-import pl.kj.m33t.m33tbackend.entity.Role;
-import pl.kj.m33t.m33tbackend.entity.User;
-import pl.kj.m33t.m33tbackend.dto.request.RegisterRequest;
+import pl.kj.m33t.m33tbackend.service.dto.request.AuthenticationRequest;
+import pl.kj.m33t.m33tbackend.service.dto.response.AuthenticationResponse;
+import pl.kj.m33t.m33tbackend.model.repository.UserRepository;
+import pl.kj.m33t.m33tbackend.model.entity.Role;
+import pl.kj.m33t.m33tbackend.model.entity.User;
+import pl.kj.m33t.m33tbackend.service.dto.request.RegisterRequest;
 
 @Service
 @RequiredArgsConstructor

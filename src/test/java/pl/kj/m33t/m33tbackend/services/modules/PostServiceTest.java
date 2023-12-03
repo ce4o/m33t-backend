@@ -5,16 +5,16 @@ import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
-import pl.kj.m33t.m33tbackend.entity.Event;
+import pl.kj.m33t.m33tbackend.model.entity.Event;
 
 import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.*;
 
-import pl.kj.m33t.m33tbackend.dao.modules.PostRepository;
-import pl.kj.m33t.m33tbackend.dto.request.modules.PostRequest;
-import pl.kj.m33t.m33tbackend.entity.modules.Post;
+import pl.kj.m33t.m33tbackend.model.repository.modules.PostRepository;
+import pl.kj.m33t.m33tbackend.service.dto.request.modules.PostRequest;
+import pl.kj.m33t.m33tbackend.model.entity.modules.Post;
 import pl.kj.m33t.m33tbackend.service.EventService;
 import pl.kj.m33t.m33tbackend.service.modules.PostService;
 

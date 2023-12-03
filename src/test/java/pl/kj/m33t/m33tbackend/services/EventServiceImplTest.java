@@ -8,12 +8,12 @@ import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 import org.mockito.junit.MockitoJUnitRunner;
 import org.springframework.security.core.context.SecurityContextHolder;
-import pl.kj.m33t.m33tbackend.dao.EventRepository;
-import pl.kj.m33t.m33tbackend.entity.Event;
-import pl.kj.m33t.m33tbackend.entity.EventType;
-import pl.kj.m33t.m33tbackend.entity.Role;
-import pl.kj.m33t.m33tbackend.entity.User;
-import pl.kj.m33t.m33tbackend.entity.modules.EventModule;
+import pl.kj.m33t.m33tbackend.model.repository.EventRepository;
+import pl.kj.m33t.m33tbackend.model.entity.Event;
+import pl.kj.m33t.m33tbackend.model.entity.EventType;
+import pl.kj.m33t.m33tbackend.model.entity.Role;
+import pl.kj.m33t.m33tbackend.model.entity.User;
+import pl.kj.m33t.m33tbackend.model.entity.modules.EventModule;
 import pl.kj.m33t.m33tbackend.service.EventServiceImpl;
 import pl.kj.m33t.m33tbackend.service.UserService;
 

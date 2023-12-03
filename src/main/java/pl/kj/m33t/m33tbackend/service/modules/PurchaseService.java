@@ -2,10 +2,10 @@ package pl.kj.m33t.m33tbackend.service.modules;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
-import pl.kj.m33t.m33tbackend.dto.request.modules.PurchaseRequest;
-import pl.kj.m33t.m33tbackend.entity.modules.Purchase;
-import pl.kj.m33t.m33tbackend.mapping.modules.PurchaseMapper;
-import pl.kj.m33t.m33tbackend.dao.modules.PurchaseRepository;
+import pl.kj.m33t.m33tbackend.service.dto.request.modules.PurchaseRequest;
+import pl.kj.m33t.m33tbackend.model.entity.modules.Purchase;
+import pl.kj.m33t.m33tbackend.service.mapping.modules.PurchaseMapper;
+import pl.kj.m33t.m33tbackend.model.repository.modules.PurchaseRepository;
 
 import java.math.BigDecimal;
 
