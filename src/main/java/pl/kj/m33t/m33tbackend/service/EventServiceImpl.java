@@ -4,10 +4,9 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import pl.kj.m33t.m33tbackend.model.repository.EventRepository;
+import pl.kj.m33t.m33tbackend.exception.NotFoundException;
 import pl.kj.m33t.m33tbackend.model.entity.Event;
-import pl.kj.m33t.m33tbackend.model.entity.User;
-import pl.kj.m33t.m33tbackend.exception.EventNotFoundException;
+import pl.kj.m33t.m33tbackend.model.repository.EventRepository;
 
 import java.util.List;
 
@@ -19,7 +18,7 @@ public class EventServiceImpl implements EventService {
 
     @Override
     public Event findById(Long id) {
-        return eventRepository.findById(id).orElseThrow(() -> new EventNotFoundException("Event not found with ID: " + id));
+        return eventRepository.findById(id).orElseThrow(() -> new NotFoundException("Event not found with ID: " + id));
     }
 
     @Override

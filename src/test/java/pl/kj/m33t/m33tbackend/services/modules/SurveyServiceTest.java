@@ -1,4 +1,5 @@
 package pl.kj.m33t.m33tbackend.services.modules;
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
@@ -7,13 +8,13 @@ import org.mockito.Mockito;
 import org.mockito.MockitoAnnotations;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
-import pl.kj.m33t.m33tbackend.service.dto.request.modules.SurveyRequest;
-import pl.kj.m33t.m33tbackend.model.entity.User;
-import pl.kj.m33t.m33tbackend.model.repository.modules.SurveyRepository;
 import pl.kj.m33t.m33tbackend.model.entity.Event;
+import pl.kj.m33t.m33tbackend.model.entity.User;
 import pl.kj.m33t.m33tbackend.model.entity.modules.Survey;
+import pl.kj.m33t.m33tbackend.model.repository.modules.SurveyRepository;
 import pl.kj.m33t.m33tbackend.service.EventService;
 import pl.kj.m33t.m33tbackend.service.UserService;
+import pl.kj.m33t.m33tbackend.service.dto.request.modules.SurveyRequest;
 import pl.kj.m33t.m33tbackend.service.modules.SurveyService;
 
 import java.util.ArrayList;

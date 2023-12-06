@@ -3,9 +3,9 @@ package pl.kj.m33t.m33tbackend.service.mapping;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.factory.Mappers;
+import pl.kj.m33t.m33tbackend.model.entity.User;
 import pl.kj.m33t.m33tbackend.service.dto.request.UserRequest;
 import pl.kj.m33t.m33tbackend.service.dto.response.UserResponse;
-import pl.kj.m33t.m33tbackend.model.entity.User;
 
 @Mapper
 public interface UserMapper {

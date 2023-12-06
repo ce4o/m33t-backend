@@ -3,12 +3,12 @@ package pl.kj.m33t.m33tbackend.rest.impl;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import pl.kj.m33t.m33tbackend.service.dto.request.EventRequest;
-import pl.kj.m33t.m33tbackend.service.dto.response.EventResponse;
 import pl.kj.m33t.m33tbackend.model.entity.Event;
-import pl.kj.m33t.m33tbackend.service.mapping.EventMapper;
 import pl.kj.m33t.m33tbackend.rest.EventRestControllerApi;
 import pl.kj.m33t.m33tbackend.service.EventService;
+import pl.kj.m33t.m33tbackend.service.dto.request.EventRequest;
+import pl.kj.m33t.m33tbackend.service.dto.response.EventResponse;
+import pl.kj.m33t.m33tbackend.service.mapping.EventMapper;
 
 import java.util.List;
 

@@ -3,10 +3,10 @@ package pl.kj.m33t.m33tbackend.rest.impl;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import pl.kj.m33t.m33tbackend.service.dto.request.AuthenticationRequest;
-import pl.kj.m33t.m33tbackend.service.dto.response.AuthenticationResponse;
-import pl.kj.m33t.m33tbackend.service.dto.request.RegisterRequest;
 import pl.kj.m33t.m33tbackend.service.AuthenticationService;
+import pl.kj.m33t.m33tbackend.service.dto.request.AuthenticationRequest;
+import pl.kj.m33t.m33tbackend.service.dto.request.RegisterRequest;
+import pl.kj.m33t.m33tbackend.service.dto.response.AuthenticationResponse;
 
 @RestController
 @RequestMapping("/")

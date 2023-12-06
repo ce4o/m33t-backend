@@ -4,11 +4,12 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import pl.kj.m33t.m33tbackend.model.entity.User;
+import pl.kj.m33t.m33tbackend.service.UserService;
 import pl.kj.m33t.m33tbackend.service.dto.request.UserRequest;
 import pl.kj.m33t.m33tbackend.service.dto.response.UserResponse;
-import pl.kj.m33t.m33tbackend.model.entity.User;
 import pl.kj.m33t.m33tbackend.service.mapping.UserMapper;
-import pl.kj.m33t.m33tbackend.service.UserService;
+
 import java.util.List;
 import java.util.stream.Collectors;
 
