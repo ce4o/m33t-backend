@@ -1,11 +1,10 @@
-package pl.kj.m33t.m33tbackend.config;
+package pl.kj.m33t.m33tbackend.service;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
 import io.jsonwebtoken.io.Decoders;
 import io.jsonwebtoken.security.Keys;
-import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -18,7 +17,6 @@ import java.util.Map;
 import java.util.function.Function;
 
 @Service
-//TODO: please make a refactor and change the location putting in service layer
 public class JwtService {
     private final String SECRET_KEY;
     @Autowired

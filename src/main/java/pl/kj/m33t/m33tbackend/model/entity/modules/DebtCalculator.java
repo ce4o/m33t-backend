@@ -1,10 +1,15 @@
 package pl.kj.m33t.m33tbackend.model.entity.modules;
 
-import jakarta.persistence.*;
+import jakarta.persistence.CascadeType;
+import jakarta.persistence.Entity;
+import jakarta.persistence.OneToMany;
+import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import java.util.*;
+
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 @Table(name="debcalulator")

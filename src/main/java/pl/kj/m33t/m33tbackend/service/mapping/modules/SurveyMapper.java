@@ -3,9 +3,9 @@ package pl.kj.m33t.m33tbackend.service.mapping.modules;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.factory.Mappers;
+import pl.kj.m33t.m33tbackend.model.entity.modules.Survey;
 import pl.kj.m33t.m33tbackend.service.dto.request.modules.SurveyRequest;
 import pl.kj.m33t.m33tbackend.service.dto.response.modules.SurveyResponse;
-import pl.kj.m33t.m33tbackend.model.entity.modules.Survey;
 
 import java.util.HashMap;
 import java.util.List;

@@ -4,9 +4,9 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.Authentication;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import pl.kj.m33t.m33tbackend.model.repository.UserRepository;
-import pl.kj.m33t.m33tbackend.model.entity.User;
 import pl.kj.m33t.m33tbackend.exception.NotFoundException;
+import pl.kj.m33t.m33tbackend.model.entity.User;
+import pl.kj.m33t.m33tbackend.model.repository.UserRepository;
 
 import java.util.List;
 

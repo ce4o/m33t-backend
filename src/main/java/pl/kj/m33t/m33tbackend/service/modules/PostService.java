@@ -2,12 +2,12 @@ package pl.kj.m33t.m33tbackend.service.modules;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
-import pl.kj.m33t.m33tbackend.service.dto.request.modules.PostRequest;
 import pl.kj.m33t.m33tbackend.model.entity.Event;
 import pl.kj.m33t.m33tbackend.model.entity.modules.Post;
-import pl.kj.m33t.m33tbackend.service.mapping.modules.PostMapper;
-import pl.kj.m33t.m33tbackend.service.EventService;
 import pl.kj.m33t.m33tbackend.model.repository.modules.PostRepository;
+import pl.kj.m33t.m33tbackend.service.EventService;
+import pl.kj.m33t.m33tbackend.service.dto.request.modules.PostRequest;
+import pl.kj.m33t.m33tbackend.service.mapping.modules.PostMapper;
 
 @Service
 @RequiredArgsConstructor

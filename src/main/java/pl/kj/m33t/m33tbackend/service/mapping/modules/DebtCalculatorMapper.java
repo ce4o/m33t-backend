@@ -3,9 +3,9 @@ package pl.kj.m33t.m33tbackend.service.mapping.modules;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.factory.Mappers;
+import pl.kj.m33t.m33tbackend.model.entity.modules.DebtCalculator;
 import pl.kj.m33t.m33tbackend.service.dto.request.modules.DebtCalculatorRequest;
 import pl.kj.m33t.m33tbackend.service.dto.response.modules.DebtCalculatorResponse;
-import pl.kj.m33t.m33tbackend.model.entity.modules.DebtCalculator;
 
 @Mapper
 public interface DebtCalculatorMapper {
